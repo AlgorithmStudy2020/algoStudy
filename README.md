@@ -13,7 +13,7 @@
   - 진나 : [삼성 SW 역량 테스트 기출문제](https://www.acmicpc.net/workbook/view/1152)    
   - 지웅 :  [삼성 SW 역량 테스트 기출문제](https://www.acmicpc.net/workbook/view/1152)  
   - 다희 :
-  - 채윤 :
+  - 채윤 : [백준 온라인 저지 단계별로 풀어보기](https://www.acmicpc.net/step)
   - 상혁 :
   
 - 코드 업로드 
