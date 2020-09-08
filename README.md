@@ -10,27 +10,28 @@
 
 - 알고리즘 사이트
 
-  - 진나 : [삼성 SW 역량 테스트 기출문제](https://www.acmicpc.net/workbook/view/1152)    
-  - 지웅 :  [삼성 SW 역량 테스트 기출문제](https://www.acmicpc.net/workbook/view/1152)  
+  - 진나 : [삼성 SW 역량 테스트 기출문제](https://www.acmicpc.net/workbook/view/1152)
+  - 지웅 : [삼성 SW 역량 테스트 기출문제](https://www.acmicpc.net/workbook/view/1152)
   - 다희 : [프로그래머스 모든 문제](https://programmers.co.kr/learn/challenges?tab=all_challenges)
   - 채윤 : [백준 온라인 저지 단계별로 풀어보기](https://www.acmicpc.net/step)
-  - 상혁 :
-  
-- 코드 업로드 
+  - 상혁 : [백준 온라인 저지 단계별로 풀어보기](https://www.acmicpc.net/step)
+
+- 코드 업로드
 
   - 위치 : [개인 폴더] -> [X주차] 폴더 내
 
-  - 파일 이름 : {문제번호_문제이름}
+  - 파일 이름 : {문제번호\_문제이름}
 
-    ex) 13458_시험감독.cpp
+    ex) 13458\_시험감독.cpp
 
   - 주석요망
-## 1주차 공통 문제
-1. 17406 배열돌리기 
-2. 1149  RGB거리
-3. 1260  BFS와DFS
-4. 2178  미로탐색
 
+## 1주차 공통 문제
+
+1. 17406 배열돌리기
+2. 1149 RGB거리
+3. 1260 BFS와DFS
+4. 2178 미로탐색
 
 ## 제출점검 및 벌금관리
 
