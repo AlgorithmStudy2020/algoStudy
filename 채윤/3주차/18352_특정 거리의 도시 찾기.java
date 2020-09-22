@@ -4,19 +4,28 @@ import java.util.*;
 public class Main{
   static ArrayList<Integer>[] adj;
   static boolean[] check;
-  static StringBuilder sb;
+  static Queue<Integer> q;
+  static int[] dst;
   
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    sb = new StringBuilder();
+    StringBuilder sb = new StringBuilder();
+    q = new LinkedList<Integer>();
+    
 
     StringTokenizer st = new StringTokenizer(br.readLine());
     int n = Integer.parseInt(st.nextToken());
     int m = Integer.parseInt(st.nextToken());
-    int s = Integer.parseInt(st.nextToken());
+    int k = Integer.parseInt(st.nextToken());
+    int x = Integer.parseInt(st.nextToken());
 
     adj = new ArrayList[n+1];
     check = new boolean[n+1];
+    dst = new int[n+1];
+
+    for(int i=1;i<=n;i++){
+      dst[i]=1000000;
+    }
 
     for(int i=1;i<=n;i++){
       adj[i]= new ArrayList<>();
@@ -28,56 +37,39 @@ public class Main{
       int v = Integer.parseInt(st.nextToken());
 
       adj[u].add(v);
-      adj[v].add(u);
       
       m--;
     }
     
+    dj(x);
+
     for(int i=1;i<=n;i++){
-      Collections.sort(adj[i]);
-    }
-
-    dfs(s);
-    sb.append("\n");
-
-    check = new boolean[n+1];
-    bfs(s);
-    sb.append("\n");
-
-    System.out.print(sb);
-    
-  }
-
-  private static void dfs(int x){
-    if(check[x]){return;}
-    
-    check[x]=true;
-    sb.append(x+" ");
-    for(int y : adj[x]){
-      if(!check[y]){
-        dfs(y);
+      if(dst[i]==k){
+        sb.append(i+"\n");
       }
     }
+
+    if(sb.length()==0){System.out.print(-1);}
+    else{System.out.print(sb);}
+    
+    
   }
 
-  private static void bfs(int x){
-    if(check[x]){return;}
-
-    Queue<Integer> q = new LinkedList<>();
-    q.offer(x);
+  private static void dj(int x){
+    dst[x]=0;
     check[x]=true;
+    q.offer(x);
 
     while(!q.isEmpty()){
       int num = q.poll();
-      sb.append(num+" ");
       for(int y : adj[num]){
         if(!check[y]){
           check[y]=true;
           q.offer(y);
+          dst[y]=Math.min(dst[y],dst[num]+1);
+        }
       }
     }
-    
-    }
   }
-
+  
 }
