@@ -33,6 +33,7 @@
 | 1주차 | [BFS와DFS]()                                          | [RGB거리](https://www.acmicpc.net/problem/1149)              | [미로탐색](https://www.acmicpc.net/problem/2178)     | [배열돌리기](https://www.acmicpc.net/problem/17406) |
 | 2주차 | [예산](https://www.acmicpc.net/problem/2512)          | [가로수](https://www.acmicpc.net/problem/2485)               | [톱니바퀴](https://www.acmicpc.net/problem/14891)    | [뱀](https://www.acmicpc.net/problem/3190)          |
 | 3주차 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | [경쟁적 전염](https://www.acmicpc.net/problem/18405) | [연구소](https://www.acmicpc.net/problem/14502)     |
+| 4주차 | [미로만들기](https://www.acmicpc.net/problem/1347)    | [바이러스](https://www.acmicpc.net/problem/2606)             | [테트로미노](https://www.acmicpc.net/problem/14500)  | [아기상어](https://www.acmicpc.net/problem/16236)   |
 
 
 
@@ -42,3 +43,4 @@
 | :-------------------------: | :--: | :--: | ---- | ---- |
 | 1주차 [09.02(수)~09.08(화)] | 휴식 |  O   | O    | O    |
 | 2주차 [09.09(수)~09.15(화)] |  O   |  X   | O    | O    |
+|  3주차[9.16(수)~09.22(화)]  |  O   |  O   | O    | X    |
